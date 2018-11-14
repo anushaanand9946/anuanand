@@ -1,5 +1,5 @@
 from flask import Flask,render_template,request
-from empdata import employee
+from empdata import Employee
 app=Flask(__name__)
 getemployee = Employee()
 

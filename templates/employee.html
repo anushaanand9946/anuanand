@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block mycontent %}
+
+ DETAILS ARE
+ {% for employee in myemployee %}
+
+<ul class="list-group-item">
+     <li>{{employee.name}}</li>
+</ul>
+
+
+
+
+ {% endfor %}
+
+{% endblock %}
